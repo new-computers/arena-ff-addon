@@ -1,4 +1,4 @@
-## Add to Are.na / Chrome Extension
+## Add to Are.na / Firefox Add-on
 
 <img src="/img/preview.png" width="1000">
 
