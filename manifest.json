@@ -1,4 +1,10 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "ff-addon@are.na",
+      "strict_min_version": "42.0"
+    }
+  },
 	"name": "Are.na",
 	"version": "0.2.1",
 	"manifest_version": 2,

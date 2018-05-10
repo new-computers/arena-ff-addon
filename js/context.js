@@ -49,7 +49,7 @@
   }
 
   function createStyle() {
-    var url = chrome.extension.getURL("css/style.css");
+    var url = browser.extension.getURL("css/style.css");
     var head = document.head;
     var link = document.createElement('link');
 
@@ -231,11 +231,10 @@
     markletDiv.addEventListener("drop", drop, false);
   }
 
-  chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
+  browser.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
     if (msg.text && (msg.text == "open:dialog")) {
       initialize(msg);
     }
   });
 
 })();
-
